@@ -1,0 +1,6 @@
+// stage 1
+start
+    - get data from html
+    - store data in array
+    - store array in local storage
+    - display local storage data in html
