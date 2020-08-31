@@ -1,6 +1,13 @@
-// stage 1
-start
-    - get data from html
+stage 1
+    - get data from an input
     - store data in array
-    - store array in local storage
-    - display local storage data in html
+    - store data from array to local storage 
+    - display data from local storage on html 
+
+stage 2
+    - store multi input data on local host
+    - remove duplicate value
+    - store an option input on local host
+    - display that data on html
+
+stage 3

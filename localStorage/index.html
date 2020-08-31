@@ -15,6 +15,12 @@
           <div class="register-info">
             <form>
               <input type="text" placeholder="Full Name" id="nameIn" />
+              <input type="email" placeholder="E-mail" id="email" />
+              <select name="land" id="country">
+                  <option value="thailand">Thailand</option>
+                  <option value="sweden">Sweden</option>
+                  <option value="england">England</option>
+              </select>
               <button type="button" onclick="sendData()">Send</button>
               <button type="button" onclick="dropValue()">Delete!</button>
             </form>
@@ -22,6 +28,7 @@
           <hr />
           <div class="display-info">
             <h4 id="display-info-name"></h4>
+            <h4 id="display-info-email"></h4>
           </div>
         </div>
       </div>
